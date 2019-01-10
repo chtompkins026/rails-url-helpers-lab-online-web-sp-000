@@ -9,7 +9,10 @@ class StudentsController < ApplicationController
     @student = set_student
     @message = @student.active ? "This student is currently active." : "This student is currently inactive."
   end
-
+  
+  
+  
+  
   private
 
     def set_student
